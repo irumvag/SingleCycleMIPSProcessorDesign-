@@ -1,0 +1,125 @@
+# do run_mips.do 
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Modifying modelsim.ini
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module full_adder_1bit
+# -- Compiling module full_adder_32
+# 
+# Top level modules:
+# 	full_adder_32
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module alu_32
+# 
+# Top level modules:
+# 	alu_32
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module alu_control
+# 
+# Top level modules:
+# 	alu_control
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module mux2to1_32
+# 
+# Top level modules:
+# 	mux2to1_32
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module mux2to1_5
+# 
+# Top level modules:
+# 	mux2to1_5
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module sign_extend
+# 
+# Top level modules:
+# 	sign_extend
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module register_file
+# 
+# Top level modules:
+# 	register_file
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module control_unit
+# 
+# Top level modules:
+# 	control_unit
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module instr_memory
+# 
+# Top level modules:
+# 	instr_memory
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module data_memory
+# 
+# Top level modules:
+# 	data_memory
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module mips_top
+# 
+# Top level modules:
+# 	mips_top
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module tb_mips_top
+# 
+# Top level modules:
+# 	tb_mips_top
+# vsim -t 1ns work.tb_mips_top 
+# Loading sv_std.std
+# Loading work.tb_mips_top
+# Loading work.mips_top
+# Loading work.instr_memory
+# Loading work.control_unit
+# Loading work.mux2to1_5
+# Loading work.register_file
+# Loading work.sign_extend
+# Loading work.mux2to1_32
+# Loading work.alu_control
+# Loading work.alu_32
+# Loading work.data_memory
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: Chairman  Hostname: DESKTOP-GJSPR88  ProcessID: 35340
+# 
+#           Attempting to use alternate WLF file "./wlftdvfsqm".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlftdvfsqm
+# 
+# =========================================================
+#   Single-Cycle MIPS Processor — Functional Simulation
+# =========================================================
+# Time  | Cycle | PC   | ALU_Result | Zero | Expected
+# ------|-------|------|------------|------|----------
+#    50 |   0   | 0000 |   00000005 |  0   | see table
+# FAIL Cycle1 addi $t0=5: got 0000000c
+#    70 |   1   | 0004 |   0000000c |  0   | see table
+# FAIL Cycle2 addi $t1=12: got 00000011
+#    90 |   2   | 0008 |   00000011 |  0   | see table
+# FAIL Cycle3 add $t2=17: got 00000007
+#   110 |   3   | 000c |   00000007 |  0   | see table
+# FAIL Cycle4 sub $t3=7: got 00000004
+#   130 |   4   | 0010 |   00000004 |  0   | see table
+# FAIL Cycle5 and $t4=4: got 0000000d
+#   150 |   5   | 0014 |   0000000d |  0   | see table
+# FAIL Cycle6 or $t5=13: got 00000001
+#   170 |   6   | 0018 |   00000001 |  0   | see table
+# FAIL Cycle7 slt $t6=1: got 00000000
+#   190 |   7   | 001c |   00000000 |  1   | see table
+# INFO Cycle8 sw Mem[0]=$t2 (addr=00000000)
+#   210 |   8   | 0020 |   00000000 |  1   | see table
+# INFO Cycle9 lw $t7=Mem[0] (addr=00000000)
+#   230 |   9   | 0024 |   00000000 |  1   | see table
+# FAIL Cycle10 beq zero flag: got x
+#   250 |  10   | 0028 |   xxxxxxxx |  x   | see table
+#   270 |  11   | 002c |   xxxxxxxx |  x   | see table
+#   290 |  12   | 0030 |   xxxxxxxx |  x   | see table
+# =========================================================
+#   Simulation complete.
+# =========================================================
+# ** Note: $finish    : ../../Part2_Processor/tb_mips_top.sv(122)
+#    Time: 290 ns  Iteration: 1  Instance: /tb_mips_top
+# 1
+# Break in Module tb_mips_top at ../../Part2_Processor/tb_mips_top.sv line 122
+# Simulation Breakpoint: 1
+# Break in Module tb_mips_top at ../../Part2_Processor/tb_mips_top.sv line 122
+# MACRO ./run_mips.do PAUSED at line 63

@@ -1,0 +1,357 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Chairman\Documents\1CST_UR Room\zero\Quartus2\MIPS_Project\simulation\modelsim
+valu_32
+Z1 DXx6 sv_std 3 std 0 22 F[19LRNL:5;XmIFh[XOPn1
+Z2 !s100 0SEYSJSoRTZGi86IH@;kF0
+Z3 I]kRbL4[97>[hiij>b=^0:0
+Z4 VR50C5Boe_SXeIhYRY?d>z0
+Z5 !s105 alu_32_sv_unit
+S1
+Z6 dC:\Users\Chairman\Documents\1CST_UR Room\zero\Quartus2\MIPS_Project\simulation\modelsim
+Z7 w1778278289
+Z8 8../../Part1_Components/alu_32.sv
+Z9 F../../Part1_Components/alu_32.sv
+L0 16
+Z10 OV;L;10.1d;51
+r1
+31
+Z11 !s90 -reportprogress|300|-sv|../../Part1_Components/alu_32.sv|
+Z12 o-sv -O0
+Z13 !s108 1778365581.410000
+Z14 !s107 ../../Part1_Components/alu_32.sv|
+!i10b 1
+!s85 0
+!s101 -O0
+valu_control
+R1
+Z15 !s100 DkQDZU1dL6Q0i;k0h5R7:1
+Z16 IK?G5M46_l1Qbfk9^6A=mA3
+Z17 V=i2SNWK^M<m:faCQ^TI7_1
+Z18 !s105 alu_control_sv_unit
+S1
+R6
+Z19 w1778278296
+Z20 8../../Part1_Components/alu_control.sv
+Z21 F../../Part1_Components/alu_control.sv
+L0 20
+R10
+r1
+31
+Z22 !s90 -reportprogress|300|-sv|../../Part1_Components/alu_control.sv|
+R12
+Z23 !s108 1778365581.476000
+Z24 !s107 ../../Part1_Components/alu_control.sv|
+!i10b 1
+!s85 0
+!s101 -O0
+vcontrol_unit
+R1
+Z25 !s100 hSO7@U`:oiUZgI@g@7]WV2
+Z26 INhlS1=d6BXS3l?QRVmjZz2
+Z27 VUBfI6DYZP?nl>Mf>1Xb<]3
+Z28 !s105 control_unit_sv_unit
+S1
+R6
+Z29 w1778363043
+Z30 8../../Part2_Processor/control_unit.sv
+Z31 F../../Part2_Processor/control_unit.sv
+L0 22
+R10
+r1
+31
+Z32 !s90 -reportprogress|300|-sv|../../Part2_Processor/control_unit.sv|
+R12
+Z33 !s108 1778365581.876000
+Z34 !s107 ../../Part2_Processor/control_unit.sv|
+!i10b 1
+!s85 0
+!s101 -O0
+vdata_memory
+R1
+Z35 !s100 Sf^BgO;5lJcXj@LA1MQf?0
+Z36 I6m[fXOONQLUnEgB_znWYE0
+Z37 VIJkdYXC@k2o8dP_QgQ=NV0
+Z38 !s105 data_memory_sv_unit
+S1
+R6
+Z39 w1778278470
+Z40 8../../Part2_Processor/data_memory.sv
+Z41 F../../Part2_Processor/data_memory.sv
+L0 11
+R10
+r1
+31
+Z42 !s90 -reportprogress|300|-sv|../../Part2_Processor/data_memory.sv|
+R12
+Z43 !s108 1778365582.003000
+Z44 !s107 ../../Part2_Processor/data_memory.sv|
+!i10b 1
+!s85 0
+!s101 -O0
+vfull_adder_1bit
+R1
+Z45 !s100 bD[H@]Bif9hBN:8FUMLEI1
+Z46 I;WEKiYCaB@K?hKQKcVS;73
+Z47 VG_fn6>IE`cHo7EoN@;9Cn0
+Z48 !s105 full_adder_32_sv_unit
+S1
+R6
+Z49 w1778278279
+Z50 8../../Part1_Components/full_adder_32.sv
+Z51 F../../Part1_Components/full_adder_32.sv
+L0 5
+R10
+r1
+31
+Z52 !s108 1778365581.331000
+Z53 !s107 ../../Part1_Components/full_adder_32.sv|
+Z54 !s90 -reportprogress|300|-sv|../../Part1_Components/full_adder_32.sv|
+R12
+!i10b 1
+!s85 0
+!s101 -O0
+vfull_adder_32
+R1
+Z55 !s100 4F6Vz]N6E];=1@B9^B52g3
+Z56 IPk[0j_NeTMof9b4omDlh91
+Z57 V2YzUFLb@hNlgGnlmolR1]1
+R48
+S1
+R6
+R49
+R50
+R51
+L0 18
+R10
+r1
+31
+R52
+R53
+R54
+R12
+!i10b 1
+!s85 0
+!s101 -O0
+vinstr_memory
+R1
+Z58 !s100 CEIG:]ZhGSj?iQGT;TiTk3
+Z59 I6Jab0[k2RP[N5a;3l2X?e0
+Z60 VG<U758AX^C2dWT_^`Fz;d0
+Z61 !s105 instr_memory_sv_unit
+S1
+R6
+Z62 w1778278462
+Z63 8../../Part2_Processor/instr_memory.sv
+Z64 F../../Part2_Processor/instr_memory.sv
+L0 20
+R10
+r1
+31
+Z65 !s90 -reportprogress|300|-sv|../../Part2_Processor/instr_memory.sv|
+R12
+Z66 !s108 1778365581.935000
+Z67 !s107 ../../Part2_Processor/instr_memory.sv|
+!i10b 1
+!s85 0
+!s101 -O0
+vmips_components_top
+R1
+Z68 !s100 z<3c@O3fSUN_Vhj9Y?OM;3
+Z69 IBTcGU2o@b8c]Az4Y6HDZS2
+Z70 VJiJPF]>ceIkIimXGQgmel0
+Z71 !s105 mips_components_top_sv_unit
+S1
+R6
+Z72 w1778278303
+Z73 8../../Part1_Components/mips_components_top.sv
+Z74 F../../Part1_Components/mips_components_top.sv
+L0 7
+R10
+r1
+31
+Z75 !s90 -reportprogress|300|-sv|../../Part1_Components/mips_components_top.sv|
+R12
+Z76 !s108 1778362418.434000
+Z77 !s107 ../../Part1_Components/mips_components_top.sv|
+!i10b 1
+!s85 0
+!s101 -O0
+vmips_top
+R1
+Z78 !s100 B8kNBz^hH473YDCPfdR6o0
+Z79 ImUfaO6ijk@YcYAlzdLz@n3
+Z80 VNeo<03GF3F[M?l0[8QKND0
+Z81 !s105 mips_top_sv_unit
+S1
+R6
+Z82 w1778278494
+Z83 8../../Part2_Processor/mips_top.sv
+Z84 F../../Part2_Processor/mips_top.sv
+L0 18
+R10
+r1
+31
+Z85 !s90 -reportprogress|300|-sv|../../Part2_Processor/mips_top.sv|
+R12
+!i10b 1
+!s85 0
+Z86 !s108 1778365582.056000
+Z87 !s107 ../../Part2_Processor/mips_top.sv|
+!s101 -O0
+vmux2to1_32
+R1
+Z88 !s100 cZIo202b7@3eRTE[i>lA=1
+Z89 IDMK1@EaQkgLkQ0H>zT]fW2
+Z90 Vehe?mL?;=m[YbggEIDe0m0
+Z91 !s105 mux2to1_32_sv_unit
+S1
+R6
+Z92 w1778278411
+Z93 8../../Part2_Processor/mux2to1_32.sv
+Z94 F../../Part2_Processor/mux2to1_32.sv
+L0 7
+R10
+r1
+31
+Z95 !s90 -reportprogress|300|-sv|../../Part2_Processor/mux2to1_32.sv|
+R12
+Z96 !s108 1778365581.534000
+Z97 !s107 ../../Part2_Processor/mux2to1_32.sv|
+!i10b 1
+!s85 0
+!s101 -O0
+vmux2to1_5
+R1
+Z98 !s100 8eAzUUiofmT6XUOA5_TnM0
+Z99 IEdeodT];a;<iVEZhDOho00
+Z100 VA_bNH9^La`9kV<L7acE_92
+Z101 !s105 mux2to1_5_sv_unit
+S1
+R6
+Z102 w1778278418
+Z103 8../../Part2_Processor/mux2to1_5.sv
+Z104 F../../Part2_Processor/mux2to1_5.sv
+L0 8
+R10
+r1
+31
+Z105 !s90 -reportprogress|300|-sv|../../Part2_Processor/mux2to1_5.sv|
+R12
+Z106 !s108 1778365581.595000
+Z107 !s107 ../../Part2_Processor/mux2to1_5.sv|
+!i10b 1
+!s85 0
+!s101 -O0
+vmux4to1_32
+R1
+Z108 !s100 7<_ZnCcXmfSbAXeJR@dF93
+Z109 IdX:4X=VHhn3>F<V>3FKBV2
+Z110 Vi7_?0SiaZ2PmFzTogbkTH2
+Z111 !s105 mux4to1_32_sv_unit
+S1
+R6
+Z112 w1778278284
+Z113 8../../Part1_Components/mux4to1_32.sv
+Z114 F../../Part1_Components/mux4to1_32.sv
+L0 8
+R10
+r1
+31
+Z115 !s90 -reportprogress|300|-sv|../../Part1_Components/mux4to1_32.sv|
+R12
+Z116 !s108 1778362418.256000
+Z117 !s107 ../../Part1_Components/mux4to1_32.sv|
+!i10b 1
+!s85 0
+!s101 -O0
+vregister_file
+R1
+Z118 !s100 87<5eG;9RzR9Q9Q?_bW@[2
+Z119 IKab@21Pa1ZZAc^2f_hNLc2
+Z120 Voj>ZDTf@aHXdQ_fK2]QlE0
+Z121 !s105 register_file_sv_unit
+S1
+R6
+Z122 w1778278432
+Z123 8../../Part2_Processor/register_file.sv
+Z124 F../../Part2_Processor/register_file.sv
+L0 12
+R10
+r1
+31
+Z125 !s90 -reportprogress|300|-sv|../../Part2_Processor/register_file.sv|
+R12
+Z126 !s108 1778365581.795000
+Z127 !s107 ../../Part2_Processor/register_file.sv|
+!i10b 1
+!s85 0
+!s101 -O0
+vsign_extend
+R1
+Z128 !s100 0CI2BPQW?EEF0EYZ>7g_a2
+Z129 IKOdT5``2]g1EWzB67jAcM3
+Z130 VQFgPA>[g`b>c1YagCASeI2
+Z131 !s105 sign_extend_sv_unit
+S1
+R6
+Z132 w1778278423
+Z133 8../../Part2_Processor/sign_extend.sv
+Z134 F../../Part2_Processor/sign_extend.sv
+L0 10
+R10
+r1
+31
+Z135 !s90 -reportprogress|300|-sv|../../Part2_Processor/sign_extend.sv|
+R12
+Z136 !s108 1778365581.669000
+Z137 !s107 ../../Part2_Processor/sign_extend.sv|
+!i10b 1
+!s85 0
+!s101 -O0
+vtb_alu_32
+R1
+Z138 !s100 365VH>P1@V>P7_J[d`?=22
+Z139 IdeHU;<3e8d<2kik<][0E@1
+Z140 VKeg7Gz?i1U_NlEleKJe^D3
+Z141 !s105 tb_alu_32_sv_unit
+S1
+R6
+Z142 w1778355403
+Z143 8../../Part1_Components/tb_alu_32.sv
+Z144 F../../Part1_Components/tb_alu_32.sv
+L0 5
+R10
+r1
+31
+Z145 !s90 -reportprogress|300|-sv|../../Part1_Components/tb_alu_32.sv|
+R12
+Z146 !s108 1778362418.499000
+Z147 !s107 ../../Part1_Components/tb_alu_32.sv|
+!i10b 1
+!s85 0
+!s101 -O0
+vtb_mips_top
+R1
+!i10b 1
+Z148 !s100 4QUQkKgP_FzOk1_8FdCH21
+Z149 InI>V@L2fJGki?96RD3lCe3
+Z150 Vl;WLDefCV7a9C]P1F[F2>3
+Z151 !s105 tb_mips_top_sv_unit
+S1
+R6
+Z152 w1778363154
+Z153 8../../Part2_Processor/tb_mips_top.sv
+Z154 F../../Part2_Processor/tb_mips_top.sv
+L0 6
+R10
+r1
+!s85 0
+31
+!s108 1778365582.129000
+!s107 ../../Part2_Processor/tb_mips_top.sv|
+Z155 !s90 -reportprogress|300|-sv|../../Part2_Processor/tb_mips_top.sv|
+!s101 -O0
+R12
